@@ -64,21 +64,23 @@ The dataset is imported into a PostgreSQL database, and key SQL queries are used
 
 **Key Query:**
 
-```sql
-SELECT 
-    TO_CHAR(ApplicationDate, 'YYYY') AS Year,
-    CASE
-        WHEN LoanApproved = TRUE THEN 'Approved'
-        ELSE 'Declined'
-    END AS application_status,
-    COUNT(*) AS Tol_applicants,
-    ROUND(AVG(Age), 2) AS avg_age,
-    ROUND(AVG(AnnualIncome), 2) AS avg_income,
-    ROUND(AVG(TotalAssets), 2) AS avg_assets,
-    ROUND(AVG(TotalLiabilities), 2) AS Tol_liabilities,
-    ROUND(AVG(SavingsAccountBalance), 2) AS avg_savings_bal,
-    ROUND(AVG(JobTenure), 2) AS job_tenture,
-    ROUND(AVG(TotalDebtToIncomeRatio)::NUMERIC, 2) AS avg_debtratio
-FROM Loan 
+~~~sql
+SELECT 
+    TO_CHAR(ApplicationDate, 'YYYY') AS Year,
+    CASE
+        WHEN LoanApproved = TRUE THEN 'Approved'
+        ELSE 'Declined'
+    END AS application_status,
+    COUNT(*) AS Tol_applicants,
+    ROUND(AVG(Age), 2) AS avg_age,
+    ROUND(AVG(AnnualIncome), 2) AS avg_income,
+    ROUND(AVG(TotalAssets), 2) AS avg_assets,
+    ROUND(AVG(TotalLiabilities), 2) AS Tol_liabilities,
+    ROUND(AVG(SavingsAccountBalance), 2) AS avg_savings_bal,
+    ROUND(AVG(JobTenure), 2) AS job_tenture,
+    ROUND(AVG(TotalDebtToIncomeRatio)::NUMERIC, 2) AS avg_debtratio
+FROM Loan 
 GROUP BY 1, 2
 ORDER BY 1;
+~~~
+This query summarizes loan application trends by year and approval status, providing average values for key metrics.
