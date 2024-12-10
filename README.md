@@ -84,14 +84,12 @@ FROM Loan
 GROUP BY 1, 2
 ORDER BY 1;
 
-****
+
 
 **Visualizations in Power BI**
 
-****
 The query results are exported to Power BI to create interactive dashboards, including:
 
 Total Applicants by Year and Application Status: Displays trends in total loan applicants and approval rates over time.
 Average Age by Year and Application Status: Highlights the age profiles of approved vs. declined applicants.
 Debt-to-Income Ratio by Year and Application Status: Shows financial risk trends among applicants over time.
-****
