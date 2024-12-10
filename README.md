@@ -84,7 +84,7 @@ FROM Loan
 GROUP BY 1, 2
 ORDER BY 1;
 
-
+****
 
 **Visualizations in Power BI**
 
