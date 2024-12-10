@@ -91,5 +91,5 @@ This query summarizes loan application trends by year and approval status, provi
 **Key Insights**
 
 * Loan approvals are influenced by factors such as age, annual income, and debt-to-income ratio.
-*Trends in liabilities and assets can indicate financial risk patterns.
-*Visualizations provide actionable insights for stakeholders to make data-driven decisions.
+* Trends in liabilities and assets can indicate financial risk patterns.
+* Visualizations provide actionable insights for stakeholders to make data-driven decisions.
