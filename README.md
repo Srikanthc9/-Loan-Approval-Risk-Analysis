@@ -8,10 +8,7 @@ This project analyzes a loan application dataset to gain insights into loan appr
 * **Dataset Structure**
 * **SQL Analysis**
 * **Visualizations in Power BI**
-* **How to Use**
 * **Key Insights**
-* **Contributing**
-* **License**
 
 **Overview**
 
@@ -85,8 +82,14 @@ ORDER BY 1;
 ~~~
 This query summarizes loan application trends by year and approval status, providing average values for key metrics.
 
-* **Visualizations in Power BI**
+ **Visualizations in Power BI**
 
 * **Total Applicants by Year and Application Status:** Displays trends in total loan applicants and approval rates over time.
 * **Average Age by Year and Application Status:** Highlights the age profiles of approved vs. declined applicants.
 * **Debt-to-Income Ratio by Year and Application Status:** Shows financial risk trends among applicants over time.
+
+**Key Insights**
+
+* Loan approvals are influenced by factors such as age, annual income, and debt-to-income ratio.
+*Trends in liabilities and assets can indicate financial risk patterns.
+*Visualizations provide actionable insights for stakeholders to make data-driven decisions.
