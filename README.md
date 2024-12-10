@@ -1,6 +1,6 @@
 # Loan Application Analysis Project
 
-This project analyzes a loan application dataset to gain insights into loan approval trends and applicant characteristics. 
+This project analyzes a loan application dataset to gain insights into loan approval trends and applicant characteristics.
 
 **Table of Contents**
 
@@ -15,8 +15,7 @@ This project analyzes a loan application dataset to gain insights into loan appr
 
 **Overview**
 
-The goal of this project is to provide stakeholders with a comprehensive analysis of loan applications. By leveraging SQL and Power BI, we analyze trends in loan approval rates and identify key factors influencing loan decisions.
-
+This project aims to provide stakeholders with a comprehensive analysis of loan applications. By leveraging SQL and Power BI, we analyze trends in loan approval rates and identify key factors influencing loan decisions.
 
 **Dataset Structure**
 
@@ -29,7 +28,7 @@ The dataset contains information on various applicant attributes, including:
 * **EmploymentStatus:** Employment status of the applicant.
 * **EducationLevel:** Educational qualification of the applicant.
 * **Experience:** Total work experience in years.
-* **LoanAmount:** Loan amount requested. 
+* **LoanAmount:** Loan amount requested.
 * **LoanDuration:** Loan duration in months.
 * **MaritalStatus:** Marital status of the applicant.
 * **NumberOfDependents:** Number of dependents.
@@ -83,13 +82,3 @@ SELECT
 FROM Loan 
 GROUP BY 1, 2
 ORDER BY 1;
-
-****
-
-**Visualizations in Power BI**
-
-The query results are exported to Power BI to create interactive dashboards, including:
-
-Total Applicants by Year and Application Status: Displays trends in total loan applicants and approval rates over time.
-Average Age by Year and Application Status: Highlights the age profiles of approved vs. declined applicants.
-Debt-to-Income Ratio by Year and Application Status: Shows financial risk trends among applicants over time.
