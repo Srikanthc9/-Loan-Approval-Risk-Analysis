@@ -84,3 +84,9 @@ GROUP BY 1, 2
 ORDER BY 1;
 ~~~
 This query summarizes loan application trends by year and approval status, providing average values for key metrics.
+
+* **Visualizations in Power BI**
+
+* **Total Applicants by Year and Application Status:** Displays trends in total loan applicants and approval rates over time.
+* **Average Age by Year and Application Status:** Highlights the age profiles of approved vs. declined applicants.
+* **Debt-to-Income Ratio by Year and Application Status:** Shows financial risk trends among applicants over time.
